@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body a {
+    text-decoration: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 1.3rem;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    width: 33vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#first {
+    background-color: grey;
+}
+
+#first:hover {
+    background-color: yellow;
+}
+
+#third {
+    background-color: lightslategray;
+}
+
+#third:hover {
+    background-color: yellow;
+}
+
+#fifth {
+    background-color: rgb(241, 163, 163);
+}
+
+#fifth:hover {
+    background-color: yellow;
+}
+
+#seventh {
+    background-color: blueviolet;
+}
+
+#seventh:hover {
+    background-color: yellow;
+}
+
+#nineth {
+    background-color: rgb(233, 122, 122);
+}
+
+#nineth:hover {
+    background-color: yellow;
+}
+
